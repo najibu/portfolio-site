@@ -1,0 +1,27 @@
+<div class="wrapper wrapper_padding clearfix">
+	<div class="col-1 about homepage_content">
+		<h2>About</h2>
+		<hr>
+		<p>I'm a Full Stack Developer with Rails living in Croydon, London. I have a passion for building websites and developing my creativity.</p>
+		<p>My passion is all about creating real elegant looking web applications. Always keeping it clean and simple with that added functionality of user interaction you would like to see. <a href="#">To do list</a> </p>
+		<p>You can find me speaking in 140 characters on Twitter, showcasing my qualifications on LinkedIn and sharing some code on Github.</p>
+	</div>
+	<div class="col-2 homepage_content">
+		<h2>Stuff I've written</h2>
+		<hr>
+		<% @posts.each do |post| %>
+			<h3><%= link_to post.title, post %></h3>
+			<p class="date"><%= post.created_at.strftime("%A, %b, %d")%></p>
+		<% end %>		
+	</div>
+	<div class="col-3 homepage_content">
+		<h2>Stuff I've built</h2>
+		<hr>
+		<h3><a href="#">DevMatch Sass app</a></h3>
+		<p class="date">Friday April 10th</p>
+		<h3><a href="#">Stukdo app</a></h3>
+		<p class="date">Friday April 10th</p>
+		<h3><a href="#">Stukbook app</a></h3>
+		<p class="date">Friday April 10th</p>
+	</div>
+</div>
