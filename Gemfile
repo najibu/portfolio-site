@@ -18,6 +18,8 @@ gem 'will_paginate', '~> 3.0.6'
 
 gem 'mail_form', '~> 1.5.1'
 
+gem 'devise', '~> 3.4.1'
+
 gem 'pygments.rb', '~> 0.6.3'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
