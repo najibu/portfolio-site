@@ -14,6 +14,8 @@ gem 'redcarpet', '~> 3.3.2'
 
 gem 'friendly_id', '~> 5.1.0'
 
+gem 'will_paginate', '~> 3.0.6'
+
 gem 'pygments.rb', '~> 0.6.3'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
